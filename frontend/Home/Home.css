@@ -1,0 +1,232 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding: 20px 10px;
+    background: #efd1d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 100%;
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 100%;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar a:hover {
+    background-color: #f0f0f0; 
+    color: #efd1d8;
+}
+
+.intro-section{
+    background: #d6cae3;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.intro-title {
+    width: 50%;
+    text-align: left;
+}
+
+.intro-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.intro-title p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.intro-img img {
+    width: 80%; 
+    height: 80%; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.about-section {
+    background: #efcacc;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.about-title {
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+  
+.about-title h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-title p {
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+ }
+
+.testimonial-section{
+    background: #cac3e4;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    padding: 0 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.little-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.little-description h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.little-description p {
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 1 1 45%;
+    margin: 10px;
+}
+
+.box {
+    border: 1px transparent;
+    padding: 15px; 
+    text-align: center;
+}
+
+.client-photo{
+    width: 25%;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+}
+
+.client-photo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.client-review{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.team-section {
+    background: #fef9f8;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.team-header {
+    text-align: center;
+    margin: auto;
+}
+.team-header h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.team-box span {
+    color: #363958;
+}
+.team-wrap {
+    padding: 20px 0;
+    overflow: hidden;
+    display: flex;
+}
+.team-box {
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+  
+.team-box img {
+    width: 100%;
+    border-radius: 20px;
+}
+.team-box h2 {
+    margin: 15px 0;
+}
+.team-box p {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  footer h1 {
+    color: #7a9c57;
+    margin-bottom: 2rem;
+    font-family: "Berkshire Swash", cursive;
+  }
+  footer h1 span {
+    color: #666;
+  }
+  footer p {
+    color: #888;
+    margin-bottom: 4rem;
+  }
+  footer span {
+    color: #999;
+  }
