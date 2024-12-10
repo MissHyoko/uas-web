@@ -92,7 +92,7 @@ function Home() {
         <div class="team-box">
           <img src="././images/michelle.jpg" alt="" />
           <h2>Michelle K. S. Rinding</h2>
-          <p>Mahasiswi Teknik Informatika angkatan 2023. Dikasih otak encer sama Tuhan, tapi suka hobi nunda tugas sampai h-1</p>
+          <p>Mahasiswi Teknik Informatika angkatan 2023. D tapi suka hobi nunda tugas sampai h-1</p>
         </div>
         <div class="team-box">
           <img src="././images/novi.jpg" alt="" />
