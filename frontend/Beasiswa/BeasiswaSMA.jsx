@@ -27,67 +27,83 @@ function Beasiswa() {
           <div className="shop-content">
 
             <div className="food-box">
+              
               <div className="pic">
-                <img src="././images/bi.jpg" className="food-img" alt="Iced Coffee" />
+                <img src="../images/bi.jpg" className="food-img" alt="Iced Coffee" />
               </div>
-              <h2 className="food-title">Iced Coffee</h2>
+              <h2 className="food-title"><a href='./SMA/BI.jsx'>Iced Coffee</a></h2>
               <span className="food-price">Rs.65</span>
+              
             </div>
 
             <div className="food-box">
+            <a href='./SMA/Beasiswa1.jsx'>
               <div className="pic">
-                <img src="././images/bi.jpg" className="food-img" alt="Choco Truffle Cake" />
+                <img src="../images/bi.jpg" className="food-img" alt="Choco Truffle Cake" />
               </div>
               <h2 className="food-title">Choco Truffle Cake</h2>
               <span className="food-price">Rs.165</span>
+              </a>
             </div>
 
             <div className="food-box">
+            <a href='./SMA/Beasiswa1.jsx'>
               <div className="pic">
-                <img src="././images/bi.jpg" className="food-img" alt="Frappe" />
+                <img src="../images/bi.jpg" className="food-img" alt="Frappe" />
               </div>
               <h2 className="food-title">Frappe</h2>
               <span className="food-price">Rs.65</span>
+              </a>
             </div>
 
             <div className="food-box">
+            <a href='./SMA/Beasiswa1.jsx'>
               <div className="pic">
-                <img src="././images/bi.jpg" className="food-img" alt="Brewed Coffee" />
+                <img src="../images/bi.jpg" className="food-img" alt="Brewed Coffee" />
               </div>
               <h2 className="food-title">Brewed Coffee</h2>
               <span className="food-price">Rs.100</span>
+              </a>
             </div>
 
             <div className="food-box">
+            <a href='./SMA/Beasiswa1.jsx'>
               <div className="pic">
-                <img src="././images/bi.jpg" className="food-img" alt="Pineapple Pastry" />
+                <img src="../images/bi.jpg" className="food-img" alt="Pineapple Pastry" />
               </div>
               <h2 className="food-title">Pineapple Pastry</h2>
               <span className="food-price">Rs.125</span>
+              </a>
             </div>
 
             <div className="food-box">
+            <a href='./SMA/Beasiswa1.jsx'>
               <div className="pic">
-                <img src="././images/bi.jpg" className="food-img" alt="Mocha" />
+                <img src="../images/bi.jpg" className="food-img" alt="Mocha" />
               </div>
               <h2 className="food-title">Mocha</h2>
               <span className="food-price">Rs.110</span>
+              </a>
             </div>
 
             <div className="food-box">
+            <a href='./SMA/Beasiswa1.jsx'>
               <div className="pic">
-                <img src="././images/bi.jpg" className="food-img" alt="Espresso" />
+                <img src="../images/bi.jpg" className="food-img" alt="Espresso" />
               </div>
               <h2 className="food-title">Espresso</h2>
               <span className="food-price">Rs.90</span>
+              </a>
             </div>
 
             <div className="food-box">
+            <a href='./SMA/Beasiswa1.jsx'>
               <div className="pic">
-                <img src="././images/bi.jpg" className="food-img" alt="Ferrero Rocher Pastry" />
+                <img src="../images/bi.jpg" className="food-img" alt="Ferrero Rocher Pastry" />
               </div>
               <h2 className="food-title">Ferrero Rocher Pastry</h2>
               <span className="food-price">Rs.145</span>
+              </a>
             </div>
 
           </div>
