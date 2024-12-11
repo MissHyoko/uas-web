@@ -1,0 +1,96 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #efcacc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Latar Belakang Partikel */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Agar partikel berada di belakang form */
+}
+
+/* Kontainer utama */
+.signup-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px; /* Lebar maksimal agar form tidak terlalu lebar */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Formulir */
+.signup-form {
+  background-color: #CAC3E4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signup-form h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Jarak antar input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.signup-form input:focus {
+  outline: none;
+  border-color: #EFD1D8;
+}
+
+/* Tombol Daftar */
+.signup-form button {
+  width: 17%;
+  left: 42%;
+  padding: 12px;
+  background-color: #EFD1D8;
+  color: black;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #ccd0db9e;
+}
+
+/* Tombol Tutup */
+.na {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#hide {
+  color: #888;
+}
+
+#hide:hover {
+  color: #766363;
+}
