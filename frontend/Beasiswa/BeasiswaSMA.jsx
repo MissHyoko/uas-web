@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Beasiswa.css"
 
-function Beasiswa() {
+function BeasiswaSMA() {
   return (
     <>
       <header className="header">
@@ -112,4 +112,4 @@ function Beasiswa() {
   );
 }
 
-export default Beasiswa;
+export default BeasiswaSMA

@@ -1,9 +1,15 @@
 const express=require('express')
 const app=express()
+const PostRouter=require("./router/PostRouter")
 const cors=require('cors')
 const bodyParser = require('body-parser')
 require('dotenv').config()
 const bcrypt=require('bcrypt')
+
+app.use(cors())
+app.use(express.json())
+app.use(bodyParser.urlencoded({extended: true}))
+app.use('/post', PostRouter)
 
 const userpassword="Michelle"
 const salt=10

@@ -1,17 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Home.css"
 
 function Home() {
   return (
     <>
+    <div className='home-container'>
     <header class="header">
-        <a href="/" className="logo">InfoBeasiswa</a>
+        <img src="././images/logo.png" className="logo" alt="" />
         <nav className='navbar'>
-            <a href="#">Beranda</a>
-            <a href="#">Beasiswa</a>
-            <a href="././Tentang/Tentang.">Tentang</a>
-            <a href="#">Kontak</a>
+            <Link to={"/Home"}>Beranda</Link>
+            <Link to={"/BeasiswaSMA"}>Beasiswa</Link>
+            <Link to={"/Tentang"}>Tentang</Link>
         </nav>
+        <div className='register'>
+        <Link to={"/Login"}>Masuk</Link>
+        <Link to={"/Signup"}>Daftar</Link></div>
     </header>
 
   <section class="intro-section">
@@ -86,33 +90,33 @@ function Home() {
   <section class="team-section">
       <div class="team-header">
         <h2>Tim <span>Kami</span></h2>
-        <p>Sekumpulan mahasiswi cantik yang penuh dengan talenta, berambisi mendapat nilai bagus dalam mata kuliah Pemrograman Web!</p>
+        <p>Sekumpulan mahasiswi cantik yang penuh dengan talenta, berambisi mendapat nilai bagus dalam semua mata kuliah mereka!</p>
       </div>
       <div class="team-wrap">
         <div class="team-box">
           <img src="././images/michelle.jpg" alt="" />
           <h2>Michelle K. S. Rinding</h2>
-          <p>Mahasiswi Teknik Informatika angkatan 2023. D tapi suka hobi nunda tugas sampai h-1</p>
+          <p>Mahasiswi Teknik Informatika angkatan 2023. Sering beli novel tapi jarang dibaca</p>
         </div>
         <div class="team-box">
           <img src="././images/novi.jpg" alt="" />
           <h2>Novita W. Halatu</h2>
-          <p>Mahasiswi Teknik Informatika angkatan 2023. Si paling santai dalam keadaan apapun, yang penting senyumin aja dulu</p>
+          <p>Mahasiswi Teknik Informatika angkatan 2023. Hobi jalan-jalan buat refreshing</p>
         </div>
         <div class="team-box">
           <img src="././images/cindy.jpg" alt="" />
           <h2>Cindy G. Boro</h2>
-          <p>Mahasiswi Teknik Informatika angkatan 2023. Suka keliling kota cari makanan enak, tapi tidak pernah gendut</p>
+          <p>Mahasiswi Teknik Informatika angkatan 2023. Suka keliling kota cari makanan enak</p>
         </div>
         <div class="team-box">
           <img src="././images/putria.jpg" alt="" />
           <h2>Putria Ningsih</h2>
-          <p>Mahasiswi Teknik Informatika angkatan 2023. Badannya boleh kecil, tapi nyalinya lebih besar dari yang lain</p>
+          <p>Mahasiswi Teknik Informatika angkatan 2023. </p>
         </div>
         <div class="team-box">
           <img src="././images/fuah.jpg" alt="" />
           <h2>Siti Marfuah</h2>
-          <p>Mahasiswi Teknik Informatika angkatan 2023. Paling tinggi dibandingkan yang lain, ekstrovert tergantung kondisi</p>
+          <p>Mahasiswi Teknik Informatika angkatan 2023. Paling tinggi dibandingkan temannya yang lain</p>
         </div>
       </div>
   </section>
@@ -122,6 +126,7 @@ function Home() {
     <h1>InfoBeasiswa</h1>
     <p>Ciptakan Masa Depanmu: Temukan Beasiswa yang Tepat</p>
   </footer>
+  </div>
     </>
   )
 }
