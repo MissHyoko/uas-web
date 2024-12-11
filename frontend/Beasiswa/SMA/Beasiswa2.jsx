@@ -21,7 +21,7 @@ function BI() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>Beasiswa YBM BRILIAN</h2>
         </div>
         
 
@@ -31,13 +31,24 @@ function BI() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>Beasiswa YBM BRILIAN</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+  <li>Tunjangan Prestasi</li>
+  <li>Pembinaan masuk PTN</li>
+  <li>Motivasi dan Pembinaan Kapasitas Diri</li>
+</ul>
+</p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+  <li>Warga negara Indonesia</li>
+  <li>Siswa/i aktif SMA/sederajat Kelas XI</li>
+  <li>Memiliki potensi akademik baik dan dorongan berprestasi tinggi</li>
+  <li>Memiliki keterbatasan finansial</li>
+</ul>
+</p>
+        <p><b>Dibuka : </b>27 FEBRUARI 2024</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='(linkhttps://ybmbrilian.id/program/pendidikan/my-scholarship/ beasiswa'>Beasiswa YBM BRILIAN</a></p>
         </div>
         </div>
   </section>

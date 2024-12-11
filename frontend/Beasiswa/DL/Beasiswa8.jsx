@@ -21,7 +21,7 @@ function BI() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>Beasiswa PPA (Peningkatan Prestasi Akademik)</h2>
         </div>
         
 
@@ -31,13 +31,29 @@ function BI() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>Beasiswa PPA</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+  <li>Bantuan dana pendidikan yang lumaya bermanfaat.</li>
+  <li>Kesempatan untuk meningkatkan prestasi akademik dan berkontribusi pada kemajuan pendidikan.</li>
+</ul>
+</p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+  <li>Kamu harus terdaftar sebagai mahasiswa PTS di Pangkalan Data Perguruan Tinggi (PDPT) dengan beberapa ketentuan berikut:
+o	Program DIII: minimal semester II, maksimal semester IV.
+o	Program DIV/S1: minimal semester II, maksimal semester VI, dan masih menjadi mahasiswa aktif sekurang-kurangnya 6 (enam) bulan tahun anggaran belanja.</li>
+  <li>Kamu tidak mendapatkan bantuan biaya pendidikan yang lain dari sumber APBN/APBD (Beasiswa Pemprov Jateng, Bidikmisi, dsb).</li>
+  <li>Melampirkan laporan IPK mahasiswa dengan IPK minimal 3,00.</li>
+  <li>Melampirkan rekomendasi dari pimpinan Fakultas/Jurusan/Departemen.</li>
+  <li>Melampirkan data yang disahkan oleh pihak perguruan tinggi dengan IPK minimal 3,00. Data tersebut seperti Kartu Tanda Mahasiswa (KTM), Kartu Hasil Studi (KHS)/transkrip nilai dan Kartu Rencana Studi (KRS) Semester Genap TA 2018/2019 sebagai bukti mahasiswa aktif.</li>
+  <li>Melampirkan KTP dan Kartu Keluarga (KK) mahasiswa.</li>
+  <li>Melampirkan piagam atau bukti prestasi lainnya pada bidang ko-kurikuler dan/atau ekstra kurikuler jika memiliki.</li>
+  <li>Melampirkan buku tabungan/rekening koran bank (sesuai ketentuan) atas nama mahasiswa yang data rekeningnya terlihat jelas/bisa terbaca.</li>
+</ul>
+</p>
+        <p><b>Dibuka : </b>26 Juli- 20 Agustus 2024.</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://lldikti6.kemdikbud.go.id/beasiswa-dan-bantuan-biaya-bendidikan-bagi-mahasiswa/ '>Beasiswa PPA</a></p>
         </div>
         </div>
   </section>

@@ -21,7 +21,7 @@ function BI() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>Australian Independent School (AIS) Scholarships Programme</h2>
         </div>
         
 
@@ -31,13 +31,23 @@ function BI() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>Australian Independent School (AIS) Scholarships Programme</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+        <li>Bebas dari biaya sekolah biaya ujian Diploma IB serta biaya pembangunan sekolah</li>
+        <li>Para pelajar yang telah menyelesaikan studi dari AIDS akan mendapatkan predikat International Baccalaureate (IB) Diploma yang setara SMA dan bisa dipergunakan untuk langsung melanjutkan kuliah, baik dalam negeri maupun luar negeri</li>
+    </ul></p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+        <li>Merupakan Warga Negara Indonesia yang berdomisi di Indonesia</li>
+        <li>Memiliki kemampuan berbahasa Inggris</li>
+        <li>Memiliki catatan akademik yang menonjol</li>
+        <li>Memiliki motivasi yang kuat dan atribut yang mendukung untuk program id</li>
+        <li>Saat ini tidak sedang terdaftar sebagai siswa di AIS Indonesia manapun</li>
+        <li>Terdaftar sebagai siswa kelas 10 atau 1 SMA di sekolah saat ini</li>
+    </ul></p>
+        <p><b>Dibuka : </b>Dibuka hingga 17 februari</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://www.ais-indonesia.com/'>Australian Independent School (AIS) Scholarships Programme</a></p>
         </div>
         </div>
   </section>
