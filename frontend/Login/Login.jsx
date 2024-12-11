@@ -20,7 +20,6 @@ function Login() {
 
       <form onSubmit={handleSubmit}>
         <h2>Selamat Datang</h2>
-        <br />
         <input
           type="text"
           placeholder="Nama"
@@ -34,6 +33,8 @@ function Login() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
+        <br />
+        <br />
         <br />
         <button type="submit">Masuk</button>
 

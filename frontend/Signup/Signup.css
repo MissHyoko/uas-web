@@ -1,126 +1,96 @@
-@import url(https://fonts.googleapis.com/css?family=Heebo:100,200,300,regular,500,600,700,800,900);
-
-* {
-  box-sizing: border-box;
-}
-
+/* Global styles */
 body {
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  background-color: #efcacc;
   margin: 0;
-  font-weight: bold;
-  font-family: 'Heebo', sans-serif;
-  background-color: #fef9f8;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   position: relative;
 }
 
-img {
-  width: 90%;
-}
-
-form {
-  margin: auto;
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: #efcacc;
+/* Latar Belakang Partikel */
+#particles-js {
   position: absolute;
-  top: 10%;
-  left: 30%;
-  color: white;
-  padding: 6%;
-  border-radius: 15px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Agar partikel berada di belakang form */
 }
 
-input {
-  width: 80%;
-  background-color: #fff;
-  border-top: none;
-  border-right: none;
-  border-bottom: 2px solid #d6cae3;
-  border-left: none;
-  font-size: 16px;
-  margin-top: 10px;
+/* Kontainer utama */
+.signup-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px; /* Lebar maksimal agar form tidak terlalu lebar */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Formulir */
+.signup-form {
+  background-color: #CAC3E4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  color: black;
-  font-weight: bold;
-  padding: 8px;
 }
 
-input::placeholder {
+.signup-form h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Jarak antar input */
+  border: 1px solid #ccc;
+  border-radius: 5px;
   font-size: 16px;
-  color: #aaa;
-  font-weight: normal;
 }
 
-input:focus {
+.signup-form input:focus {
   outline: none;
-  border-bottom: 2px solid #fff;
+  border-color: #EFD1D8;
 }
 
-button {
-  padding: 10px 30px;
-  background-color: white;
-  color: #efcacc;
-  font-weight: bold;
-  font-family: 'Heebo', sans-serif;
-  border: 3px solid #cac3e4;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-button:hover {
-  transform: scale(1.05);
-  background-color: #efcacc;
-}
-
-#burger {
-  position: absolute;
-  top: 3%;
-  left: 3%;
-  color: #efcacc;
-  font-size: 30px;
+/* Tombol Daftar */
+.signup-form button {
+  width: 17%;
+  left: 42%;
+  padding: 12px;
+  background-color: #EFD1D8;
+  color: black;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 17px;
   cursor: pointer;
 }
 
+.signup-form button:hover {
+  background-color: #ccd0db9e;
+}
+
+/* Tombol Tutup */
 .na {
-  z-index: 100;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
 }
 
-@media (min-width: 280px) and (max-width: 1024px) {
-  body {
-    overflow: scroll;
-  }
+#hide {
+  color: #888;
+}
 
-  form {
-    margin: auto;
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #efd1d8;
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    color: #efcacc;
-    padding: 6%;
-    border-radius: 15px;
-  }
-
-  .na {
-    font-size: 50%;
-  }
+#hide:hover {
+  color: #766363;
 }
