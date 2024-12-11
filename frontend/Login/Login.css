@@ -1,108 +1,112 @@
 /* Global styles */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #efcacc;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  /* Styling for the form container */
-  form {
-    background-color: #CAC3E4;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-  }
-  
-  /* Form title */
-  form h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
-  }
-  
-  /* Input fields styling */
-  input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
-  }
-  
-  input:focus {
-    outline: none;
-    border-color: #EFD1D8; /* Green focus border */
-  }
-  
-  /* Button styling */
-  button {
-    width: 100%;
-    padding: 12px;
-    background-color: #EFD1D8; /* Green color */
-    color: black;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #EFD1D8; /* Darker green on hover */
-  }
-  
-  /* Link for sign-up */
-  .signup-link {
-    margin-top: 20px;
-    font-size: 14px;
-  }
-  
-  .signup-link p {
-    color: #333;
-  }
-  
-  .signup-link a {
-    color: rgb(0, 136, 255);
-    text-decoration: none;
-  }
-  
-  .signup-link a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Particles background */
-  #particles-js {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Send particles background behind form */
-  }
-  
-  /* Close button for the modal (optional if needed) */
-  .na {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  #hide {
-    color: #888;
-  }
-  
-  #hide:hover {
-    color: #333;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  background-color: #efcacc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling for the form container */
+form {
+  background-color: #CAC3E4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Form title */
+form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Input fields styling */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  margin-top: 2%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #EFD1D8; /* Green focus border */
+}
+
+/* Button styling */
+button {
+  width: 1px;
+  height: 5%;
+  left: 39%;
+  top: 79%;
+  padding: 10px;
+  text-align: center;
+  background-color: #EFD1D8; /* Green color */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccd0db9e; /* Darker green on hover */
+}
+
+/* Link for sign-up */
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup-link p {
+  color: #eb8f8f;
+}
+
+.signup-link a {
+  color: rgb(0, 136, 255);
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Particles background */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Send particles background behind form */
+}
+
+/* Close button for the modal (optional if needed) */
+.na {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#hide {
+  color: #888;
+}
+
+#hide:hover {
+  color: #766363;
+}
