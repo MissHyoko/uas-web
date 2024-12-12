@@ -19,9 +19,6 @@ function DL6() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa XL Future Leaders</h2>
@@ -52,6 +49,9 @@ function DL6() {
         <p><b>Dibuka : </b>21 Februari - 31 Mei</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://xlfutureleaders.com/global-leaders/ '>Beasiswa XL Future Leaders</a></p>
         </div>
+          <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

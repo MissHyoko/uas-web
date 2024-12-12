@@ -25,9 +25,7 @@ function SMA1() {
         <div className='beasiswa-title'>
           <h2>Australian Independent School (AIS) Scholarships Programme</h2>
         </div>
-        <button><Link to={"/BeasiswaSMA"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
+        
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
@@ -53,6 +51,9 @@ function SMA1() {
         <p><b>Dibuka : </b>Dibuka hingga 17 februari</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://www.ais-indonesia.com/'>Australian Independent School (AIS) Scholarships Programme</a></p>
         </div>
+        <button><Link to={"/BeasiswaSMA"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

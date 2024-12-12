@@ -19,9 +19,6 @@ function LN4() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaLN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Turkiye Burslari Scholarship</h2>
@@ -53,6 +50,9 @@ function LN4() {
         <p><b>Dibuka : </b>20 Februari 2025</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://www.turkiyeburslari.gov.tr/'>Turkiye Burslari Scholarship</a></p>
         </div>
+          <button><Link to={"/BeasiswaLN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

@@ -19,9 +19,6 @@ function SMA4() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaSMA"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa YBM BRILIAN</h2>
@@ -53,6 +50,9 @@ function SMA4() {
         <p><b>Dibuka : </b>27 FEBRUARI 2024</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='(linkhttps://ybmbrilian.id/program/pendidikan/my-scholarship/ beasiswa'>Beasiswa YBM BRILIAN</a></p>
         </div>
+          <button><Link to={"/BeasiswaSMA"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

@@ -19,10 +19,6 @@ function DL10() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
-        
         <div className='beasiswa-title'>
           <h2>Beasiswa Kartu Indonesia Pintar (KIP) kuliah</h2>
         </div>
@@ -54,6 +50,10 @@ function DL10() {
         <p><b>Dibuka : </b>Di buka bersamaan dengan Seleksi Nasional Berdasarkan Prestasi</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://kip-kuliah.kemdikbud.go.id/'>Beasiswa Kartu Indonesia Pintar (KIP) kuliah</a></p>
         </div>
+          <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
+        
         </div>
   </section>
     </>

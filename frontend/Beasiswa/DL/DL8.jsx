@@ -19,9 +19,6 @@ function DL8() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa PPA (Peningkatan Prestasi Akademik)</h2>
@@ -58,6 +55,9 @@ o	Program DIV/S1: minimal semester II, maksimal semester VI, dan masih menjadi m
         <p><b>Dibuka : </b>26 Juli- 20 Agustus 2024.</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://lldikti6.kemdikbud.go.id/beasiswa-dan-bantuan-biaya-bendidikan-bagi-mahasiswa/ '>Beasiswa PPA</a></p>
         </div>
+          <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

@@ -19,9 +19,6 @@ function LN2() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaLN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>NTU ASEAN Undergraduate Scholarship</h2>
@@ -46,6 +43,9 @@ function LN2() {
         <p><b>Dibuka : </b>16 Januari 2025</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://www.ntu.edu.sg/admissions/undergraduate/scholarships/asean-scholarship'>NTU ASEAN Undergraduate Scholarship</a></p>
         </div>
+          <button><Link to={"/BeasiswaLN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

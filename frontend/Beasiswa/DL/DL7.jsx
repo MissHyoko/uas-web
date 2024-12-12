@@ -19,9 +19,6 @@ function DL7() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa Cargill Global Scholar</h2>
@@ -55,6 +52,9 @@ function DL7() {
         <p><b>Dibuka : </b>Dibuka setiap tahun dari 20 Mei hingga akhir tahun </p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://apply.iie.org/cargillglobalscholars-indonesia'>Beasiswa Cargill Global Scholar	</a></p>
         </div>
+          <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

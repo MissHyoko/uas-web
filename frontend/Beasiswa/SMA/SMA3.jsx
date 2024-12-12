@@ -19,9 +19,6 @@ function SMA3() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaSMA"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa SimulasiKu</h2>
@@ -55,6 +52,9 @@ function SMA3() {
         <p><b>Dibuka : </b> Deadline sampai 31 Desember</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://beasiswa.co/beasiswa-simulasikuid-untuk-pelajar/'>Beasiswa SimulasiKu</a></p>
         </div>
+          <button><Link to={"/BeasiswaSMA"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

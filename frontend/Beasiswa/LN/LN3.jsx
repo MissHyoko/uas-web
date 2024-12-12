@@ -19,9 +19,6 @@ function LN3() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaLN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Mitsui Bussan Scholarship</h2>
@@ -47,6 +44,9 @@ function LN3() {
         <p><b>Dibuka : </b>16 Februari 2024</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://www.mbkscholarship-id.com/final-result-grantee-announcement-2024/'>Mitsui Bussan Scholarship</a></p>
         </div>
+          <button><Link to={"/BeasiswaLN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

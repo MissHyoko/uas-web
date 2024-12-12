@@ -18,10 +18,7 @@ function LN5() {
     </header>
 
       <section class="beasiswa-detail">
-        
-          <button><Link to={"/BeasiswaLN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
+       
         
         <div className='beasiswa-title'>
           <h2>KAren McKellin International Leader of Tomorrow Awards - University British Columbia</h2>
@@ -48,7 +45,10 @@ function LN5() {
           </ul></p>
         <p><b>Dibuka : </b>15 November 2025</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.scholarsofficial.com/info-beasiswa/beasiswa-karen-mckellin-international-leader-of-tomorrow-untuk-kuliah-s1-di-ubc-kanada/&ved=2ahUKEwj_iZ_krqGKAxWJRmwGHTtgJC4Qh-wKegQIEBAC&usg=AOvVaw10gk_93Kvln_rbzG5WTAOe'>KAren McKellin International Leader of Tomorrow Awards - University British Columbia</a></p>
-        </div>
+        </div> 
+          <button><Link to={"/BeasiswaLN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

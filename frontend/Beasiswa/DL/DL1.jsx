@@ -53,10 +53,11 @@ function DL1() {
         <p><b>Dibuka : </b>periode 13-19 Februari 2024</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://bit.ly/daftar-beasiswa-bi-usk-2024'>Beasiswa Bank Indonesia</a></p>
         </div>
-        </div>
-      <button><Link to={"/BeasiswaDN"}>
+        <button><Link to={"/BeasiswaDN"}>
           <div className='left'>&#11164; Kembali</div></Link>
         </button>
+        </div>
+      
   </section>
     </>
   )

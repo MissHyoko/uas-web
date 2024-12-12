@@ -20,9 +20,6 @@ function SMA6
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaSMA"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa Amartha Cendekia</h2>
@@ -55,6 +52,9 @@ function SMA6
         <p><b>Dibuka : </b>27 Maret hingga 15 Juni 2024</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://beasiswa-amartha.org/'>Beasiswa Amartha Cendekia</a></p>
         </div>
+          <button><Link to={"/BeasiswaSMA"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

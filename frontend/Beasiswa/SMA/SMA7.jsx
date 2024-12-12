@@ -19,9 +19,6 @@ function SMA7() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaSMA"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa Anak Teladan Indonesia (BATI)</h2>
@@ -60,6 +57,9 @@ function SMA7() {
         <p><b>Dibuka : </b>1 November - 14 Desember</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://yayasanrubic.org/bati/'>Beasiswa Anak Teladan Indonesia (BATI)</a></p>
         </div>
+          <button><Link to={"/BeasiswaSMA"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

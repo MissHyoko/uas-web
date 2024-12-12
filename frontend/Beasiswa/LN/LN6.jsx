@@ -18,10 +18,7 @@ function LN6() {
     </header>
 
       <section class="beasiswa-detail">
-        
-          <button><Link to={"/BeasiswaLN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
+      
         
         <div className='beasiswa-title'>
           <h2>Stamps Scholarship - University of Miami</h2>
@@ -43,7 +40,10 @@ function LN6() {
         <p><b>Syarat Mendaftar : - </b></p>
         <p><b>Dibuka : </b>1 November 2025</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://admissions.miami.edu/undergraduate/financial-aid/scholarships/stamps/index.html'>Stamps Scholarship - University of Miami</a></p>
-        </div>
+        </div>  
+          <button><Link to={"/BeasiswaLN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

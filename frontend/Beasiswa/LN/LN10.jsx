@@ -19,9 +19,6 @@ function LN10() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaLN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>The Lester B.Pearson Scholarship - University of Toronto</h2>
@@ -48,6 +45,9 @@ function LN10() {
         <p><b>Informasi Lebih Lanjut : </b><a href='https://future.utoronto.ca/pearson/about/'>The Lester B.Pearson Scholarship - University of Toronto</a></p>
         
         </div>
+          <button><Link to={"/BeasiswaLN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

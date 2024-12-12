@@ -19,9 +19,6 @@ function DL9() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa IGGS Telkom University</h2>
@@ -56,6 +53,9 @@ Lulusan tahun 2024: nilai rapor semester 1 s.d. 4</li>
         <p><b>Dibuka : </b>21 Des 2023 – 23 Feb 2024</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://smb.telkomuniversity.ac.id/jalur-seleksi/iggs/'>Beasiswa IGGS Telkom University</a></p>
         </div>
+          <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

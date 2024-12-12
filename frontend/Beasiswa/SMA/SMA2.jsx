@@ -19,9 +19,7 @@ function SMA2() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaSMA"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
+          
         
         <div className='beasiswa-title'>
           <h2>Beasiswa Tunas Indonesia Jepang</h2>
@@ -51,7 +49,9 @@ function SMA2() {
     </ul></p>
         <p><b>Dibuka : </b>Hingga 7 Agustus</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://indbeasiswa.com/beasiswa-tunas-indonesia-jepang/'>Beasiswa Tunas Indonesia Jepang</a></p>
-        </div>
+        </div><button><Link to={"/BeasiswaSMA"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>

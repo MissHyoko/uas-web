@@ -19,10 +19,6 @@ function SMA5() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaSMA"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
-        
         <div className='beasiswa-title'>
           <h2>Beasiswa Inspiratif</h2>
         </div>
@@ -57,6 +53,10 @@ function SMA5() {
         <p><b>Dibuka : </b>11 Maret - 10 Juni</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://bit.ly/BeasiswaInspiratif2022'>Beasiswa Inspiratif</a></p>
         </div>
+          <button><Link to={"/BeasiswaSMA"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
+        
         </div>
   </section>
     </>

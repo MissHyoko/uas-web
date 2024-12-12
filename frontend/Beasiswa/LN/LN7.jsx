@@ -18,10 +18,7 @@ function LN7() {
     </header>
 
       <section class="beasiswa-detail">
-        
-          <button><Link to={"/BeasiswaLN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
+       
         
         <div className='beasiswa-title'>
           <h2>KAIST International Undergradate Scholarship</h2>
@@ -50,7 +47,10 @@ function LN7() {
         <p><b>Dibuka : </b>24 Oktober 2025</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://www.schoters.com/id/beasiswa/info/kaist-international-student-scholarship-copy-s1-1-3bf2M'>KAIST International Undergradate Scholarship</a></p>
        
-        </div>
+        </div> 
+          <button><Link to={"/BeasiswaLN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
         </div>
   </section>
     </>
