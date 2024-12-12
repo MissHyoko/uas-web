@@ -24,13 +24,13 @@ function LN8() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>Tokyo International University Scholarship</h2>
         </div>
         
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/tokyo int.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>

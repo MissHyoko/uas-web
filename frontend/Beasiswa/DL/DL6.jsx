@@ -30,7 +30,7 @@ function DL6() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/xl.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>

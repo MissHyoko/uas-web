@@ -25,6 +25,16 @@ import DL8 from '../Beasiswa/DL/DL8'
 import DL9 from '../Beasiswa/DL/DL9'
 import DL10 from '../Beasiswa/DL/DL10'
 import Signup from '../Signup/Signup'
+import LN1 from '../Beasiswa/LN/LN1'
+import LN2 from '../Beasiswa/LN/LN2'
+import LN3 from '../Beasiswa/LN/LN3'
+import LN4 from '../Beasiswa/LN/LN4'
+import LN5 from '../Beasiswa/LN/LN5'
+import LN6 from '../Beasiswa/LN/LN6'
+import LN7 from '../Beasiswa/LN/LN7'
+import LN8 from '../Beasiswa/LN/LN8'
+import LN10 from '../Beasiswa/LN/LN10'
+import LN9 from '../Beasiswa/LN/LN9'
 
 function App() {
   return (
@@ -53,6 +63,17 @@ function App() {
       <Route path='/DL8' element={<DL8 />} />
       <Route path='/DL9' element={<DL9 />} />
       <Route path='/DL10' element={<DL10 />} />
+      <Route path='/LN1' element={<LN1 />} />
+      <Route path='/LN2' element={<LN2 />} />
+      <Route path='/LN3' element={<LN3 />} />
+      <Route path='/LN4' element={<LN4 />} />
+      <Route path='/LN5' element={<LN5 />} />
+      <Route path='/LN6' element={<LN6 />} />
+      <Route path='/LN7' element={<LN7 />} />
+      <Route path='/LN8' element={<LN8 />} />
+      <Route path='/LN9' element={<LN9 />} />
+      <Route path='/LN10' element={<LN10 />} />
+
     </Routes>
   )
 }

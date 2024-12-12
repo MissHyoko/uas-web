@@ -24,13 +24,13 @@ function LN10() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>The Lester B.Pearson Scholarship - University of Toronto</h2>
         </div>
         
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/toronto.png" alt="" />
         </div>
 
         <div className='beasiswa-info'>
@@ -44,7 +44,7 @@ function LN10() {
           <li>Pelajar internasional memerlukan izin belajar.</li>
           <li>Terdaftar ditahun terakhir sekolah menengah atas pada tahun 2024/2025 atau Telah lulus paling lambat bulan juni 2024</li>
           </ul></p>
-        <p><b>11 Oktober 2025</b></b></p>
+        <p><b>Dibuka : </b>11 Oktober 2025</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://future.utoronto.ca/pearson/about/'>The Lester B.Pearson Scholarship - University of Toronto</a></p>
         
         </div>

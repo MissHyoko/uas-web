@@ -24,13 +24,13 @@ function LN2() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>NTU ASEAN Undergraduate Scholarship</h2>
         </div>
         
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/ntu.png" alt="" />
         </div>
 
         <div className='beasiswa-info'>

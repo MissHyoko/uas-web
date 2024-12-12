@@ -18,10 +18,7 @@ function DL2() {
     </header>
 
       <section class="beasiswa-detail">
-        
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
+      
         
         <div className='beasiswa-title'>
           <h2>Beasiswa Tanoto Foundation</h2>
@@ -30,7 +27,7 @@ function DL2() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/tanoto.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>
@@ -56,7 +53,10 @@ function DL2() {
         <p><b>Dibuka : </b>17 Agustus - 01 Oktober 2024</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://www.tanotofoundation.org/id/teladan-2025/'>Beasiswa Tanoto Foundation</a></p>
         </div>
-        </div>
+        </div>  
+          <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
   </section>
     </>
   )

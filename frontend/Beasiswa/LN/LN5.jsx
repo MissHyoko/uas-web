@@ -24,13 +24,13 @@ function LN5() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>KAren McKellin International Leader of Tomorrow Awards - University British Columbia</h2>
         </div>
         
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/columbia.png" alt="" />
         </div>
 
         <div className='beasiswa-info'>

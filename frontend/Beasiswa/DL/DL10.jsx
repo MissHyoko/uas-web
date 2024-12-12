@@ -30,7 +30,7 @@ function DL10() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/kip.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>

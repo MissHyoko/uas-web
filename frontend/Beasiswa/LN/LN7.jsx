@@ -24,13 +24,13 @@ function LN7() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>KAIST International Undergradate Scholarship</h2>
         </div>
         
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/kaist.png" alt="" />
         </div>
 
         <div className='beasiswa-info'>

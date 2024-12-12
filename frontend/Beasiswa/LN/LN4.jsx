@@ -24,13 +24,13 @@ function LN4() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>Turkiye Burslari Scholarship</h2>
         </div>
         
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/turkiye.png" alt="" />
         </div>
 
         <div className='beasiswa-info'>

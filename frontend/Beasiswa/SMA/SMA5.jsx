@@ -30,7 +30,7 @@ function SMA5() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/inspiratif.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>

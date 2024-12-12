@@ -19,9 +19,7 @@ function DL1() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
+          
         
         <div className='beasiswa-title'>
           <h2>Beasiswa Bank Indonesia</h2>
@@ -30,7 +28,7 @@ function DL1() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/bi.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>
@@ -56,6 +54,9 @@ function DL1() {
         <p><b>Informasi Lebih Lanjut : </b><a href='https://bit.ly/daftar-beasiswa-bi-usk-2024'>Beasiswa Bank Indonesia</a></p>
         </div>
         </div>
+      <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
   </section>
     </>
   )

@@ -30,7 +30,7 @@ function DL8() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/ppa.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>

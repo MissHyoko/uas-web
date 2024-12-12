@@ -24,13 +24,13 @@ function LN9() {
         </button>
         
         <div className='beasiswa-title'>
-          <h2>Nama Beasiswa</h2>
+          <h2>HKU Etrance Scholarship for Outstanding Student</h2>
         </div>
         
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/hku.png" alt="" />
         </div>
 
         <div className='beasiswa-info'>

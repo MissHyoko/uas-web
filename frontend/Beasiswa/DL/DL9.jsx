@@ -30,7 +30,7 @@ function DL9() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/telkom.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>

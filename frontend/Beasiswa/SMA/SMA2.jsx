@@ -30,7 +30,7 @@ function SMA2() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/tunas.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>

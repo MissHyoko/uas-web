@@ -18,10 +18,7 @@ function DL3() {
     </header>
 
       <section class="beasiswa-detail">
-        
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
+  
         
         <div className='beasiswa-title'>
           <h2>Beasiswa Djarum Plus</h2>
@@ -30,7 +27,7 @@ function DL3() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/djarum.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>
@@ -60,7 +57,10 @@ function DL3() {
         <p><b>Dibuka : </b>27 Maret - 30 Mei S</p>
         <p><b>Informasi Lebih Lanjut : </b><a href='https://djarumbeasiswaplus.org/tentang_kami/daftar-perguruan-tinggi-program-djarum-beasiswa-plus '>Beasiswa Djarum Plus</a></p>
         </div>
-        </div>
+        </div>      
+          <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
   </section>
     </>
   )

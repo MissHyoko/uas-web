@@ -19,9 +19,6 @@ function DL4() {
 
       <section class="beasiswa-detail">
         
-          <button><Link to={"/BeasiswaDN"}>
-          <div className='left'>&#11164; Kembali</div></Link>
-        </button>
         
         <div className='beasiswa-title'>
           <h2>Beasiswa BCA Finance</h2>
@@ -30,7 +27,7 @@ function DL4() {
 
         <div className='beasiswa-content'>
         <div class="beasiswa-img">
-          <img src="/" alt="" />
+          <img src="../images/bca.jpg" alt="" />
         </div>
 
         <div className='beasiswa-info'>
@@ -58,6 +55,9 @@ function DL4() {
         <p><b>Informasi Lebih Lanjut : </b><a href='https://bcafinance.co.id/tentang-kami/csr/test-beasiswa '>Beasiswa BCA Finance</a></p>
         </div>
         </div>
+          <button><Link to={"/BeasiswaDN"}>
+          <div className='left'>&#11164; Kembali</div></Link>
+        </button>
   </section>
     </>
   )
