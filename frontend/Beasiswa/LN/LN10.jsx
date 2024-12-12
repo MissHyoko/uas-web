@@ -34,13 +34,19 @@ function LN10() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>The Lester B.Pearson Scholarship - University of Toronto</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+          <li>Biaya kuliah, buku, biaya insidental, dan dukungan tempat tinggal penuh selama empat tahun</li>
+          </ul></p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+          <li>Pelajar internasional memerlukan izin belajar.</li>
+          <li>Terdaftar ditahun terakhir sekolah menengah atas pada tahun 2024/2025 atau Telah lulus paling lambat bulan juni 2024</li>
+          </ul></p>
+        <p><b>11 Oktober 2025</b></b></p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://future.utoronto.ca/pearson/about/'>The Lester B.Pearson Scholarship - University of Toronto</a></p>
+        
         </div>
         </div>
   </section>

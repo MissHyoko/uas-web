@@ -34,13 +34,19 @@ function LN9() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>HKU Etrance Scholarship for Outstanding Student</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+          <li>Beasiswa berdasarkan prestasi diberikan kepada mahasiswa baru berprestasi yang diterima di program sarjana HKU.</li>
+          <li>Biaya kuliah penuh.</li>
+          </ul></p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+          <li>IELTS (6.5).</li>
+          <li>TOEFL (93).</li>
+          </ul></p>
+        <p><b>Dibuka : </b>22 Agustus 2025</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://www.schoters.com/id/beasiswa/info/the-university-of-hong-kong-s1-1'>HKU Etrance Scholarship for Outstanding Student</a></p>
         </div>
         </div>
   </section>

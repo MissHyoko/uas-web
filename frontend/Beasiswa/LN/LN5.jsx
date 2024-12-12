@@ -34,13 +34,20 @@ function LN5() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>KAren McKellin International Leader of Tomorrow Awards - University British Columbia</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+          <li>Biaya kuliah selama di UBC</li>
+          <li>Biaya hidup</li>
+          </ul></p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+          <li>Merupakan mahasiswa internasional yang akan belajar di kanada dengan memiliki izin belajar kanada.</li>
+          <li>Menunjukan prestasi akademik yang unggul.</li>
+          <li>Menunjukan kebutuhan finansial atau kurang mapu dalam melanjutkan studi.</li>
+          </ul></p>
+        <p><b>Dibuka : </b>15 November 2025</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.scholarsofficial.com/info-beasiswa/beasiswa-karen-mckellin-international-leader-of-tomorrow-untuk-kuliah-s1-di-ubc-kanada/&ved=2ahUKEwj_iZ_krqGKAxWJRmwGHTtgJC4Qh-wKegQIEBAC&usg=AOvVaw10gk_93Kvln_rbzG5WTAOe'>KAren McKellin International Leader of Tomorrow Awards - University British Columbia</a></p>
         </div>
         </div>
   </section>

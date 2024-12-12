@@ -34,13 +34,15 @@ function LN6() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>Stamps Scholarship - University of Miami</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
-        <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+          <li>Tempat tinggal dikampus, paket makan, asuransi kesehatan.</li>
+          <li>Buku pelajaran, tunjangan laptop, dan akses ke dana pengayaan senilai $12.000.</li>
+          </ul></p>
+        <p><b>Syarat Mendaftar : - </b></p>
+        <p><b>Dibuka : </b>1 November 2025</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://admissions.miami.edu/undergraduate/financial-aid/scholarships/stamps/index.html'>Stamps Scholarship - University of Miami</a></p>
         </div>
         </div>
   </section>

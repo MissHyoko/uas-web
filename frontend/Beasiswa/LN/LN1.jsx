@@ -34,13 +34,17 @@ function LN1() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>Stipendium Hungaricum Scholarhip</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
-        <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+        <li>Bebas biaya kuliah selama masa studi,tanpa biaya pendaftaran atau ujian.</li>
+        <li>Bantuan bulanan untuk mahasiswa program Sarjana, Magister, atau Doktor.</li>
+        <li>Kontribusi terhadap akomodasi.</li>
+        <li>Asuransi kesehatan gratis untuk seluruh durasi program BSc, MSc atau Phd.</li>
+        </ul></p>
+        <p><b>Syarat Mendaftar : - </b></p>
+        <p><b>Dibuka : </b>15 Januari 2025</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://edu.unideb.hu/p/stipendium-hungaricum-scholarship-20252026?gad_source=1&gclid=CjwKCAiAjeW6BhBAEiwAdKltMtg6LYwkq3TINuPhJNiWaRex_Gmggpnjsj7XcuR6r1TpZxnkAdQrqxoCDR0QAvD_BwE'>(stipendium Hungaricum Scholarhip)</a></p>
         </div>
         </div>
   </section>

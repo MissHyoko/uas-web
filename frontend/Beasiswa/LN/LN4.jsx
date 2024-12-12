@@ -34,13 +34,24 @@ function LN4() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>Turkiye Burslari Scholarship</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+          <li>Penempatan universitas dan departemen</li>
+          <li>Gaji bulanan</li>
+          <li>biaya pendidikan</li>
+          <li>kursus bahasa turki (1tahun)</li>
+          <li>akomodasi,asuransi kesehatan</li>
+          <li>Tiket pesawat sekali saja (pada awal pendidikan dan saat lulus)</li>
+          </ul></p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+          <li>Program sarjana berusia dibawah 21 Tahun</li>
+          <li>Program magister berusia dibawah 30 tahun</li>
+          <li>Program PhD berusia dibawa 35 tahun</li>
+          </ul></p>
+        <p><b>Dibuka : </b>20 Februari 2025</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://www.turkiyeburslari.gov.tr/'>Turkiye Burslari Scholarship</a></p>
         </div>
         </div>
   </section>

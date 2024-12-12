@@ -34,13 +34,22 @@ function LN7() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>KAIST International Undergradate Scholarship</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+        <li>Biaya kuliah penuh selama 8 semester.</li>
+        <li>Biaya hidup 350.000 KRW per bulan.</li>
+        <li>Asuransi kesehata.</li>
+        </ul></p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+          <li>TOEFL iBT (83)</li>
+          <li>IELTS (6.5)</li>
+          <li>TOEFL PBT (560)</li>
+          </ul></p>
+        <p><b>Dibuka : </b>24 Oktober 2025</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://www.schoters.com/id/beasiswa/info/kaist-international-student-scholarship-copy-s1-1-3bf2M'>KAIST International Undergradate Scholarship</a></p>
+       
         </div>
         </div>
   </section>

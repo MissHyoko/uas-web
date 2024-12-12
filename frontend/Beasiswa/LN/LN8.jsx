@@ -34,13 +34,19 @@ function LN8() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>Tokyo International University Scholarship</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
+        <p><ul>
+          <li>Pengungarangan biaya pendidikan dari 30% Menjadi 100%</li>
+          </ul></p>
         <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+          <li>IELTS (5.5)</li>
+          <li>TOEFL iBT (61)</li>
+          <li>TOEIC (700)</li>
+          </ul></p>
+        <p><b>Dibuka : </b>4 September 2025</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://www.schoters.com/id/beasiswa/info/tokyo-international-university-tuition-fee-reduction-scholarship-fall-semester-s1-3'>Tokyo International University Scholarship</a></p>
         </div>
         </div>
   </section>

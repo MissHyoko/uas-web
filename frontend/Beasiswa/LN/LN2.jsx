@@ -34,13 +34,17 @@ function LN2() {
         </div>
 
         <div className='beasiswa-info'>
-        <p><b>Nama Beasiswa : </b>(nama beasiswa)</p>
+        <p><b>Nama Beasiswa : </b>NTU ASEAN Undergraduate Scholarship</p>
         <p><b>Keuntungan : </b></p>
-        <p>(isi keuntungan, gunakan list)</p>
-        <p><b>Syarat Mendaftar : </b></p>
-        <p>(syarat, gunakan list)</p>
-        <p><b>Dibuka : </b>(isi kapan biasa beasiswa dibuka)</p>
-        <p><b>Informasi Lebih Lanjut : </b><a href='(link beasiswa'>(nama beasiswa)</a></p>
+        <p><ul>
+        <li>Cakupan ppenuh biaya kuliah bersubsidi (setelah Hibah Uang Kuliah.</li>
+        <li>Tanjungan hidup sebesar S$5.800 pertahun akademik.</li>
+        <li>Tunjangan akomodasi sebesar S$3.000 pertahun akademik.</li>
+        <li>Tunjangan komputer satu kali sebesar S$1.750.</li>
+        </ul></p>
+        <p><b>Syarat Mendaftar : - </b></p>
+        <p><b>Dibuka : </b>16 Januari 2025</p>
+        <p><b>Informasi Lebih Lanjut : </b><a href='https://www.ntu.edu.sg/admissions/undergraduate/scholarships/asean-scholarship'>NTU ASEAN Undergraduate Scholarship</a></p>
         </div>
         </div>
   </section>
