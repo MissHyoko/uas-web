@@ -34,7 +34,7 @@ function BeasiswaSMA() {
             <div className="food-box">
             <Link to={"/SMA1"}>
               <div className="pic">
-                <img src="../images/bi.jpg" className="food-img" alt="Iced Coffee" />
+                <img src="../images/logo.png" className="food-img" alt="Iced Coffee" />
               </div>
               <h2 className="food-title">Australian Independent School (AIS) Scholarships Programme</h2>              
             </Link>
@@ -43,7 +43,7 @@ function BeasiswaSMA() {
             <div className="food-box">
             <Link to={"/SMA2"}>
               <div className="pic">
-                <img src="../images/bi.jpg" className="food-img" alt="Choco Truffle Cake" />
+                <img src="../images/logo.png" className="food-img" alt="Choco Truffle Cake" />
               </div>
               <h2 className="food-title">Beasiswa Tunas Indonesia Jepang</h2>
               </Link>
@@ -52,7 +52,7 @@ function BeasiswaSMA() {
             <div className="food-box">
             <Link to={"/SMA3"}>
               <div className="pic">
-                <img src="../images/bi.jpg" className="food-img" alt="Frappe" />
+                <img src="../images/logo.png" className="food-img" alt="Frappe" />
               </div>
               <h2 className="food-title">Beasiswa SimulasiKu</h2>
               </Link>
@@ -61,7 +61,7 @@ function BeasiswaSMA() {
             <div className="food-box">
             <Link to={"/SMA4"}>
               <div className="pic">
-                <img src="../images/bi.jpg" className="food-img" alt="Brewed Coffee" />
+                <img src="../images/logo.png" className="food-img" alt="Brewed Coffee" />
               </div>
               <h2 className="food-title">Beasiswa YBM BRILIAN</h2>
              </Link>
@@ -70,7 +70,7 @@ function BeasiswaSMA() {
             <div className="food-box">
             <Link to={"/SMA5"}>
               <div className="pic">
-                <img src="../images/bi.jpg" className="food-img" alt="Pineapple Pastry" />
+                <img src="../images/logo.png" className="food-img" alt="Pineapple Pastry" />
               </div>
               <h2 className="food-title">Beasiswa Inspiratif</h2>
               </Link>
@@ -79,7 +79,7 @@ function BeasiswaSMA() {
             <div className="food-box">
             <Link to={"/SMA6"}>
               <div className="pic">
-                <img src="../images/bi.jpg" className="food-img" alt="Mocha" />
+                <img src="../images/logo.png" className="food-img" alt="Mocha" />
               </div>
               <h2 className="food-title">Beasiswa Amartha Cendekia</h2>
               </Link>
@@ -88,7 +88,7 @@ function BeasiswaSMA() {
             <div className="food-box">
             <Link to={"/SMA7"}>
               <div className="pic">
-                <img src="../images/bi.jpg" className="food-img" alt="Espresso" />
+                <img src="../images/logo.png" className="food-img" alt="Espresso" />
               </div>
               <h2 className="food-title">Beasiswa Anak Teladan Indonesia (BATI)</h2>
               </Link>

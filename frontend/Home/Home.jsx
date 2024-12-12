@@ -17,7 +17,7 @@ function Home() {
         <Link to={"/Login"}>Masuk</Link>
         <Link to={"/Signup"}>Daftar</Link></div>
     </header>
-  <div className='empty'></div>
+  <div className='space'></div>
   <section className="intro-section">
         <div className="intro-title">
           <h1>Dapatkan Pendidikan <span>Berkualitas Dengan</span><span className="span-color"> Beasiswa</span></h1>

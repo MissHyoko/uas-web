@@ -16,7 +16,7 @@ function Tentang() {
         <Link to={"/Login"}>Masuk</Link>
         <Link to={"/Signup"}>Daftar</Link></div>
     </header>
-    <div className='empty'></div>
+    <div className='empty-tentang'></div>
         <div className="sejarah-container">
           <h2>Tentang Info Beasiswa</h2>
           <img src="././images/beasiswa.jpg" className="gambar" alt="" />
