@@ -16,6 +16,7 @@ function Beasiswa() {
         <Link to={"/Login"}>Masuk</Link>
         <Link to={"/Signup"}>Daftar</Link></div>
     </header>
+    <div className='margin-LN'></div>
 
         <div className="container">
 

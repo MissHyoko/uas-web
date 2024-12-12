@@ -17,9 +17,10 @@ function Beasiswa() {
         <Link to={"/Login"}>Masuk</Link>
         <Link to={"/Signup"}>Daftar</Link></div>
     </header>
+<div className='margin-DN'></div>
 
         <div className="container">
-<div className='margin'></div>
+
           <div className='top'>
                     <h2 className="title">Temukan Beasiswa Yang Tepat Untukmu!</h2>
                     

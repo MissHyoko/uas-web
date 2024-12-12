@@ -16,6 +16,7 @@ function BeasiswaSMA() {
         <Link to={"/Login"}>Masuk</Link>
         <Link to={"/Signup"}>Daftar</Link></div>
     </header>
+    <div className='margin-SMA'></div>
 
         <div className="container">
           <div className='top'>

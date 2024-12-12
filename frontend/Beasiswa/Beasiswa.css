@@ -88,8 +88,16 @@ header{
     border-radius: 3px;
   }
 
-.margin{
-  padding-top: 350px;
+.margin-SMA{
+  padding-top: 250px;
+}
+
+.margin-LN{
+  padding-top: 180px;
+}
+
+.margin-DN{
+  padding-top: 600px;
 }
 
   .food-box a{
@@ -130,15 +138,10 @@ header{
       justify-content: space-between; 
   }
   .top{
-    background: transparent;
-    position: relative;
-    width: 100%;
-    padding: 20px 100px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0;
-    text-align: justify;
-  text-justify: inter-word;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
   }
   footer {
     background-color: #222;
