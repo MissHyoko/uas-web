@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 import "./Signup.css";
 
 function Signup() {
@@ -6,7 +7,6 @@ function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [NoTelp, setNoTelp] = useState("");
-  const [JenisKelamin, setJenisKelamin] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -14,6 +14,19 @@ function Signup() {
   };
 
   return (
+    <>
+    <header className="header">
+        <img src="././images/logo.png" className="logo" alt="" />
+        <nav className='navbar'>
+            <Link to={"/"}>Beranda</Link>
+            <Link to={"/BeasiswaSMA"}>Beasiswa</Link>
+            <Link to={"/Tentang"}>Tentang</Link>
+        </nav>
+        <div className='register'>
+        <Link to={"/Login"}>Masuk</Link>
+        <Link to={"/Signup"}>Daftar</Link></div>
+    </header>
+
     <div className="signup-container">
       <div className="na">
         <i className="fas fa-times" id="hide"></i>
@@ -43,25 +56,15 @@ function Signup() {
           onChange={(e) => setNoTelp(e.target.value)}
         />
         <input
-          type="text"
-          placeholder="Jenis Kelamin"
-          value={JenisKelamin}
-          onChange={(e) => setJenisKelamin(e.target.value)}
-        />
-        <input
           type="password"
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}  
         />
-        <br/ >
-        <br/ >
-        <br/ >
-        <br/ >
         <button type="submit">Daftar</button>
       </form>
-    </div>
-  );
+    </div></>
+  )
 }
 
-export default Signup;
+export default Signup

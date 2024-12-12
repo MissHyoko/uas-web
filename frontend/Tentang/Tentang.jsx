@@ -1,18 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import "./Tentang.css";
 
 function Tentang() {
   return (
     <>
       <header className="header">
-        <a href="/" className="logo">InfoBeasiswa</a>
+        <img src="././images/logo.png" className="logo" alt="" />
         <nav className='navbar'>
-          <a href="#">Beranda</a>
-          <a href="#">Beasiswa</a>
-          <a href="#">Tentang</a>
-          <a href="#">Kontak</a>
+            <Link to={"/"}>Beranda</Link>
+            <Link to={"/BeasiswaSMA"}>Beasiswa</Link>
+            <Link to={"/Tentang"}>Tentang</Link>
         </nav>
-      </header>
+        <div className='register'>
+        <Link to={"/Login"}>Masuk</Link>
+        <Link to={"/Signup"}>Daftar</Link></div>
+    </header>
+    <div className='empty'></div>
 
       <section className="banner">
         <div className="container">

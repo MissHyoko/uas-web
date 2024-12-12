@@ -6,10 +6,10 @@ function Home() {
   return (
     <>
     <div className='home-container'>
-    <header class="header">
+    <header className="header">
         <img src="././images/logo.png" className="logo" alt="" />
         <nav className='navbar'>
-            <Link to={"/Home"}>Beranda</Link>
+            <Link to={"/"}>Beranda</Link>
             <Link to={"/BeasiswaSMA"}>Beasiswa</Link>
             <Link to={"/Tentang"}>Tentang</Link>
         </nav>
@@ -17,21 +17,21 @@ function Home() {
         <Link to={"/Login"}>Masuk</Link>
         <Link to={"/Signup"}>Daftar</Link></div>
     </header>
-
-  <section class="intro-section">
-        <div class="intro-title">
-          <h1>Dapatkan Pendidikan <span>Berkualitas Dengan</span><span class="span-color"> Beasiswa</span></h1>
+  <div className='empty'></div>
+  <section className="intro-section">
+        <div className="intro-title">
+          <h1>Dapatkan Pendidikan <span>Berkualitas Dengan</span><span className="span-color"> Beasiswa</span></h1>
           <p>
           Saat ini, pendidikan bukan lagi impian yang sulit dijangkau. Dengan adanya beasiswa, siapa pun memiliki kesempatan untuk bersekolah dan meraih cita-cita. Beasiswa memberikan akses kepada semua kalangan, tanpa memandang latar belakang ekonomi, untuk mendapatkan pendidikan berkualitas. Kini, pendidikan terbuka lebar bagi semua, karena beasiswa adalah jembatan menuju kesuksesan!
           </p>
         </div>
-        <div class="intro-img">
+        <div className="intro-img">
           <img src="././images/topi.png" alt="" />
         </div>
   </section>
 
-  <section class="about-section">
-      <div class="about-title">
+  <section className="about-section">
+      <div className="about-title">
         <h2>Harapan Kami</h2>
         <p>InfoBeasiswa hadir sebagai wadah berisi informasi beasiswa yang mudah diakses dan terpusat bagi para pelajar dan mahasiswa yang mencari peluang pendanaan untuk pendidikan mereka. Dalam era digital saat ini, informasi mengenai beasiswa sering kali tersebar di berbagai sumber yang tidak terorganisir, sehingga menyulitkan calon penerima beasiswa untuk menemukan informasi yang relevan dan akurat. Dengan adanya website ini, pengguna dapat dengan cepat menemukan informasi terkini mengenai berbagai jenis beasiswa, termasuk syarat pendaftaran, tenggat waktu, dan prosedur pendaftaran.</p>
       </div>
@@ -87,33 +87,33 @@ function Home() {
     </div>
   </section>
 
-  <section class="team-section">
-      <div class="team-header">
+  <section className="team-section">
+      <div className="team-header">
         <h2>Tim <span>Kami</span></h2>
         <p>Sekumpulan mahasiswi cantik yang penuh dengan talenta, berambisi mendapat nilai bagus dalam semua mata kuliah mereka!</p>
       </div>
-      <div class="team-wrap">
-        <div class="team-box">
+      <div className="team-wrap">
+        <div className="team-box">
           <img src="././images/michelle.jpg" alt="" />
           <h2>Michelle K. S. Rinding</h2>
           <p>Mahasiswi Teknik Informatika angkatan 2023. Sering beli novel tapi jarang dibaca</p>
         </div>
-        <div class="team-box">
+        <div className="team-box">
           <img src="././images/novi.jpg" alt="" />
           <h2>Novita W. Halatu</h2>
           <p>Mahasiswi Teknik Informatika angkatan 2023. Hobi jalan-jalan buat refreshing</p>
         </div>
-        <div class="team-box">
+        <div className="team-box">
           <img src="././images/cindy.jpg" alt="" />
           <h2>Cindy G. Boro</h2>
           <p>Mahasiswi Teknik Informatika angkatan 2023. Suka keliling kota cari makanan enak</p>
         </div>
-        <div class="team-box">
+        <div className="team-box">
           <img src="././images/putria.jpg" alt="" />
           <h2>Putria Ningsih</h2>
           <p>Mahasiswi Teknik Informatika angkatan 2023. </p>
         </div>
-        <div class="team-box">
+        <div className="team-box">
           <img src="././images/fuah.jpg" alt="" />
           <h2>Siti Marfuah</h2>
           <p>Mahasiswi Teknik Informatika angkatan 2023. Paling tinggi dibandingkan temannya yang lain</p>

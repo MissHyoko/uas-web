@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
+import { Link } from 'react-router-dom'
+
 
 function Login() {
   const [nama, setNama] = useState("");
@@ -11,7 +13,19 @@ function Login() {
   };
 
   return (
-    <div>
+    <>
+    <header className="header">
+        <img src="././images/logo.png" className="logo" alt="" />
+        <nav className='navbar'>
+            <Link to={"/"}>Beranda</Link>
+            <Link to={"/BeasiswaSMA"}>Beasiswa</Link>
+            <Link to={"/Tentang"}>Tentang</Link>
+        </nav>
+        <div className='register'>
+        <Link to={"/Login"}>Masuk</Link>
+        <Link to={"/Signup"}>Daftar</Link></div>
+    </header>
+    <div className="login-container">
       <div className="na">
         <i className="fas fa-times" id="hide"></i>
       </div>
@@ -33,25 +47,18 @@ function Login() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <br />
-        <br />
-        <br />
+
         <button type="submit">Masuk</button>
 
-        {/* Pindahkan bagian sign-up link di bawah tombol "Masuk" */}
         <div className="signup-link">
           <p>
             Belum punya akun?{" "}
-            <a href="/Signup">Buat Akun</a> {/* Link ke halaman pendaftaran */}
+            <a href="/Signup">Buat Akun</a> 
           </p>
         </div>
       </form>
-    </div>
+    </div></>
   );
 }
 
-<<<<<<< Updated upstream
-export default Login;
-=======
 export default Login
->>>>>>> Stashed changes
