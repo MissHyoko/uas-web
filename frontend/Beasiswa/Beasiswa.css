@@ -129,4 +129,34 @@ header{
     display: flex;
       justify-content: space-between; 
   }
-  
+  .top{
+    background: transparent;
+    position: relative;
+    width: 100%;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    text-align: justify;
+  text-justify: inter-word;
+  }
+  footer {
+    background-color: #222;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  footer h1 {
+    color: #cac3e4;
+    margin-bottom: 2rem;
+    font-family: "Berkshire Swash", cursive;
+  }
+  footer h1 span {
+    color: #666;
+  }
+  footer p {
+    color: #888;
+    margin-bottom: 4rem;
+  }
+  footer span {
+    color: #999;
+  }

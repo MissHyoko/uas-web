@@ -20,13 +20,16 @@ function Beasiswa() {
 
         <div className="container">
 <div className='margin'></div>
-          <h2 className="title">Temukan Beasiswa Yang Tepat Untukmu!</h2>
-        
-            <div className='roll'>
-            <button><Link to={"/BeasiswaSMA"}>Sekolah Menengah Atas</Link></button>
-          <button><Link to={"/BeasiswaDN"}>Kuliah Dalam Negeri</Link></button>
-          <button><Link to={"/BeasiswaLN"}>Kuliah Luar Negeri</Link></button>
-            </div>
+          <div className='top'>
+                    <h2 className="title">Temukan Beasiswa Yang Tepat Untukmu!</h2>
+                    
+                    
+                      <div className='roll'>
+                      <button><Link to={"/BeasiswaSMA"}>Sekolah Menengah Atas</Link></button>
+                    <button><Link to={"/BeasiswaDN"}>Kuliah Dalam Negeri</Link></button>
+                    <button><Link to={"/BeasiswaLN"}>Kuliah Luar Negeri</Link></button>
+                      </div>
+                      </div>
           <div className="shop-content">
 
             <div className="food-box">
@@ -121,6 +124,10 @@ function Beasiswa() {
 
           </div>
         </div>
+        <footer>
+    <h1>InfoBeasiswa</h1>
+    <p>Ciptakan Masa Depanmu: Temukan Beasiswa yang Tepat</p>
+  </footer>
     </>
   );
 }

@@ -18,7 +18,7 @@ function BeasiswaSMA() {
     </header>
 
         <div className="container">
-
+          <div className='top'>
           <h2 className="title">Temukan Beasiswa Yang Tepat Untukmu!</h2>
           
           
@@ -26,6 +26,7 @@ function BeasiswaSMA() {
             <button><Link to={"/BeasiswaSMA"}>Sekolah Menengah Atas</Link></button>
           <button><Link to={"/BeasiswaDN"}>Kuliah Dalam Negeri</Link></button>
           <button><Link to={"/BeasiswaLN"}>Kuliah Luar Negeri</Link></button>
+            </div>
             </div>
           <div className="shop-content">
 
@@ -94,6 +95,11 @@ function BeasiswaSMA() {
 
           </div>
         </div>
+
+        <footer>
+    <h1>InfoBeasiswa</h1>
+    <p>Ciptakan Masa Depanmu: Temukan Beasiswa yang Tepat</p>
+  </footer>
     </>
   );
 }

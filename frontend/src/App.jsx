@@ -4,7 +4,6 @@ import axios from "axios"
 import Home from '../Home/Home'
 import Login from '../Login/Login'
 import BeasiswaSMA from '../Beasiswa/BeasiswaSMA'
-import Signup from '../Signup/Signup'
 import Tentang from '../Tentang/Tentang'
 import BeasiswaDN from '../Beasiswa/BeasiswaDN'
 import BeasiswaLN from '../Beasiswa/BeasiswaLN'
@@ -25,6 +24,7 @@ import DL7 from '../Beasiswa/DL/DL7'
 import DL8 from '../Beasiswa/DL/DL8'
 import DL9 from '../Beasiswa/DL/DL9'
 import DL10 from '../Beasiswa/DL/DL10'
+import Signup from '../Signup/Signup'
 
 function App() {
   return (
